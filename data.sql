@@ -26,6 +26,7 @@ CREATE TABLE `photos` (
   `photo` varchar(255) DEFAULT NULL,
   `noms` varchar(255) DEFAULT NULL,
   `prenoms` varchar(255) DEFAULT NULL,
+  `profession` varchar(255) DEFAULT NULL,
   `poste` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
